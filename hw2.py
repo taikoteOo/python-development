@@ -12,7 +12,7 @@ for el_1 in list_1:
             if el_1 not in dif_el:
                 dif_el.append(el_1)
 
-print(f'Общие эдлементы списка: {common_el}')
+print(f'Общие элементы списка: {common_el}')
 print(f'Элементы, которые есть только в первом списке: {dif_el}')
 
 # Задание 2
