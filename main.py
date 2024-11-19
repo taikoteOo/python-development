@@ -1,16 +1,18 @@
-# This is a sample Python script.
+# import utils - импорт всего файла
+# обращаться через utils.bye
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# from utils import * - импортирует всё из файла
+# from utils import print_name, bye, text
+#
+# def main():
+#     print_name(text)
+#     bye()
+#
+# main()
 
+import utils
+def main():
+    utils.print_name('Alex')
+    utils.bye()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+main()
