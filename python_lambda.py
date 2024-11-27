@@ -23,6 +23,7 @@ list_of_numbers = ['1','234','234','22','11']
 # print(list_of_numbers)
 # print(list_int_numbers)
 
+# map примеяет указанную функцию ко всем элементам списка
 list_int_numbers = map(int, list_of_numbers)
 list_duble_numbers = list(map(double, list_int_numbers)) # возвращает список
 print(list_int_numbers) # возвращает итерируемый объект <map object at 0x000001C4197FD480>
