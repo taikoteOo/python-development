@@ -100,3 +100,84 @@ print(num_line(x=2, a=1, b=15))
 print(num_line(x=16, a=1, b=15))
 
 # Задание 8. Словарь из строк
+def dict_from_str(str1: str, str2: str):
+    dict_str = {}
+    if len(str1) == len(str2):
+        for i,j in zip(str1, str2):
+            dict_str[i] = j
+    return dict_str
+
+txt1 = 'abcde'
+txt2 = '12345'
+print(dict_from_str(txt1,txt2))
+
+# Задание 9. Данные пользователя в словарь
+def users_date():
+    user_name = input('Введите ваше ФИО: ')
+    user_age = input('Введите ваш врозраст: ')
+    if user_age.isdigit():
+        user_age = int(user_age)
+        if user_age < 1 or user_age > 150:
+            print('Возраст не соответсвует заданному диопазону!')
+            user_age = 0
+    else:
+        print('Возраст может быть только целым числом!')
+        user_age = 0
+    user_phone = input('Введите ваш номер телефона: ')
+    if len(user_phone) < 4 or len(user_phone) > 11:
+        print('Указан невозможный номер')
+        user_phone = '8-000-000-00-00'
+    user_date = {
+        'ФИО': user_name,
+        'Возраст': user_age,
+        'Номер телефона': user_phone
+    }
+    return print(user_date)
+
+users_date()
+
+# Задание 10. Работа со строкой
+def fun_str_2(str1: str):
+    len_str = len(str1)
+    fitst_el_str = str1[0]
+    end_el_str = str1[-1]
+    str_words = str1.split()
+    first_word = str_words[0]
+    end_word = str_words[-1]
+
+    for i in range(1, len(str1)):
+        if str1[i] == 'p':
+            one_i = i
+        if str1[i] == 'l':
+            end_i = i-1
+    pro = str1[one_i:end_i]
+    return (f'Количество символов в строке: {len_str} \nПервый элемент строки: {fitst_el_str}'
+            f'\nПоследний элемент строки: {end_el_str} \nПервое слово строки: {first_word}'
+            f'\nПоследнее слово строки: {end_word} \nСрез строки: {pro}')
+
+print(fun_str_2('Python is the best programming language'))
+
+# Задание 11. Калькулятор
+def calculator(operation, a, b):
+    operations = ('add', 'subtract', 'multiply', 'divide')
+    if operation == 'add':
+        result = f'Сумма числе равна: {a+b}'
+    elif operation == 'subtract':
+        result = f'Разность числе равна: {a-b}'
+    elif operation == 'multiply':
+        result = f'Произведение числе равно: {a*b}'
+    elif operation == 'divide':
+        if b != 0:
+            result = f'Кратное числе равно: {a/b}'
+        else:
+            result = 'Деление на ноль запрещено!'
+    else:
+        result = 'Неизвестная операцтия'
+    return result
+
+print(calculator(operation='add', a=2, b=5))
+print(calculator(operation='subtract', a=2, b=5))
+print(calculator(operation='multiply', a=2, b=5))
+print(calculator(operation='divide', a=2, b=5))
+print(calculator(operation='divide', a=2, b=0))
+print(calculator(operation='not fun', a=2, b=5))
