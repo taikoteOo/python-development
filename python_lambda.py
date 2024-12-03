@@ -40,7 +40,7 @@ users = [['alex', 70], ['dima', 50], ['elena', 30], ['sveta', 25]]
 # print(old_users)
 
 old_users = list(filter(lambda user: user[-1] > 30, users))
-print(old_users)
+print(f'old_users = {old_users}')
 
 # reduse возвращает только один элемент
 sum_numbers = reduce(lambda x,y: int(x)+int(y), list_of_numbers)
