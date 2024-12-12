@@ -7,6 +7,7 @@ def get_html(url: str) -> str|None:
     try:
         response = requests.get(url)
         status = response.status_code
+        # Если НЕ успешний запрос И НЕ переадресация, то ошибка
         if status != 200 and str(status)[0] != 3:
             print(f'Ошибка запросаю Код ошибки - {status}')
             return None
