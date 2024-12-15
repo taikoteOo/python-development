@@ -1,0 +1,15 @@
+{
+  "pagination": {
+    "1": "index1_page_1.html",
+    "2": "index1_page_2.html",
+    "3": "index1_page_3.html",
+    "4": "index1_page_4.html"
+  },
+  "navigation": {
+    "ЧАСЫ": "index1_page_1.html",
+    "ТЕЛЕФОНЫ": "index2_page_1.html",
+    "МЫШИ": "index3_page_1.html",
+    "HDD": "index4_page_1.html",
+    "НАУШНИКИ": "index5_page_1.html"
+  }
+}
