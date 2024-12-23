@@ -1,0 +1,352 @@
+{
+  "Понедельник, 23 декабря": {
+    "Ночь": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Небольшой снег с дождем",
+      "weather_feeling": "-1°",
+      "weather-probability": "69%",
+      "weather-pressure": "749",
+      "weather-wind": {
+        "wind-direction": "южный",
+        "wind-speed": "3.0"
+      },
+      "weather-humidity": "90%"
+    },
+    "Утро": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "-1°",
+      "weather-probability": "26%",
+      "weather-pressure": "752",
+      "weather-wind": {
+        "wind-direction": "южный",
+        "wind-speed": "4.4"
+      },
+      "weather-humidity": "90%"
+    },
+    "День": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "0°",
+      "weather-probability": "15%",
+      "weather-pressure": "755",
+      "weather-wind": {
+        "wind-direction": "южный",
+        "wind-speed": "1.9"
+      },
+      "weather-humidity": "90%"
+    },
+    "Вечер": {
+      "weather_temperature": "+1°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "-1°",
+      "weather-probability": "16%",
+      "weather-pressure": "758",
+      "weather-wind": {
+        "wind-direction": "южный",
+        "wind-speed": "1.7"
+      },
+      "weather-humidity": "89%"
+    }
+  },
+  "Вторник, 24 декабря": {
+    "Ночь": {
+      "weather_temperature": "0°",
+      "weather_typy": "Облачно и слабый снег",
+      "weather_feeling": "-2°",
+      "weather-probability": "75%",
+      "weather-pressure": "760",
+      "weather-wind": {
+        "wind-direction": "юго-восточный",
+        "wind-speed": "1.6"
+      },
+      "weather-humidity": "90%"
+    },
+    "Утро": {
+      "weather_temperature": "0°",
+      "weather_typy": "Снег",
+      "weather_feeling": "-2°",
+      "weather-probability": "93%",
+      "weather-pressure": "760",
+      "weather-wind": {
+        "wind-direction": "юго-восточный",
+        "wind-speed": "2.0"
+      },
+      "weather-humidity": "93%"
+    },
+    "День": {
+      "weather_temperature": "+1°",
+      "weather_typy": "Облачно и слабый снег",
+      "weather_feeling": "+1°",
+      "weather-probability": "56%",
+      "weather-pressure": "762",
+      "weather-wind": {
+        "wind-direction": "южный",
+        "wind-speed": "1.3"
+      },
+      "weather-humidity": "91%"
+    },
+    "Вечер": {
+      "weather_temperature": "+1°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "0°",
+      "weather-probability": "18%",
+      "weather-pressure": "764",
+      "weather-wind": {
+        "wind-direction": "западный",
+        "wind-speed": "1.4"
+      },
+      "weather-humidity": "93%"
+    }
+  },
+  "Среда, 25 декабря": {
+    "Ночь": {
+      "weather_temperature": "+1°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "0°",
+      "weather-probability": "8%",
+      "weather-pressure": "767",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "1.5"
+      },
+      "weather-humidity": "92%"
+    },
+    "Утро": {
+      "weather_temperature": "+1°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "-2°",
+      "weather-probability": "7%",
+      "weather-pressure": "768",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "2.3"
+      },
+      "weather-humidity": "91%"
+    },
+    "День": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "0°",
+      "weather-probability": "7%",
+      "weather-pressure": "768",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "2.0"
+      },
+      "weather-humidity": "90%"
+    },
+    "Вечер": {
+      "weather_temperature": "+3°",
+      "weather_typy": "Кратковременные осадки",
+      "weather_feeling": "+1°",
+      "weather-probability": "85%",
+      "weather-pressure": "767",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "2.3"
+      },
+      "weather-humidity": "90%"
+    }
+  },
+  "Четверг, 26 декабря": {
+    "Ночь": {
+      "weather_temperature": "+4°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "+1°",
+      "weather-probability": "35%",
+      "weather-pressure": "767",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "2.4"
+      },
+      "weather-humidity": "93%"
+    },
+    "Утро": {
+      "weather_temperature": "+4°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "+1°",
+      "weather-probability": "16%",
+      "weather-pressure": "767",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "2.7"
+      },
+      "weather-humidity": "94%"
+    },
+    "День": {
+      "weather_temperature": "+4°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "+2°",
+      "weather-probability": "40%",
+      "weather-pressure": "767",
+      "weather-wind": {
+        "wind-direction": "западный",
+        "wind-speed": "2.5"
+      },
+      "weather-humidity": "95%"
+    },
+    "Вечер": {
+      "weather_temperature": "+4°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "+2°",
+      "weather-probability": "24%",
+      "weather-pressure": "770",
+      "weather-wind": {
+        "wind-direction": "западный",
+        "wind-speed": "2.6"
+      },
+      "weather-humidity": "94%"
+    }
+  },
+  "Пятница, 27 декабря": {
+    "Ночь": {
+      "weather_temperature": "+3°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "+1°",
+      "weather-probability": "9%",
+      "weather-pressure": "772",
+      "weather-wind": {
+        "wind-direction": "западный",
+        "wind-speed": "2.0"
+      },
+      "weather-humidity": "95%"
+    },
+    "Утро": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "0°",
+      "weather-probability": "6%",
+      "weather-pressure": "772",
+      "weather-wind": {
+        "wind-direction": "западный",
+        "wind-speed": "2.0"
+      },
+      "weather-humidity": "95%"
+    },
+    "День": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "+1°",
+      "weather-probability": "21%",
+      "weather-pressure": "772",
+      "weather-wind": {
+        "wind-direction": "западный",
+        "wind-speed": "1.4"
+      },
+      "weather-humidity": "95%"
+    },
+    "Вечер": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Слабый дождь",
+      "weather_feeling": "+2°",
+      "weather-probability": "24%",
+      "weather-pressure": "771",
+      "weather-wind": {
+        "wind-direction": "южный",
+        "wind-speed": "1.3"
+      },
+      "weather-humidity": "93%"
+    }
+  },
+  "Суббота, 28 декабря": {
+    "Ночь": {
+      "weather_temperature": "+1°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "-1°",
+      "weather-probability": "24%",
+      "weather-pressure": "769",
+      "weather-wind": {
+        "wind-direction": "южный",
+        "wind-speed": "1.5"
+      },
+      "weather-humidity": "93%"
+    },
+    "Утро": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Слабый дождь",
+      "weather_feeling": "-1°",
+      "weather-probability": "32%",
+      "weather-pressure": "767",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "2.3"
+      },
+      "weather-humidity": "95%"
+    },
+    "День": {
+      "weather_temperature": "+2°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "0°",
+      "weather-probability": "31%",
+      "weather-pressure": "766",
+      "weather-wind": {
+        "wind-direction": "западный",
+        "wind-speed": "2.3"
+      },
+      "weather-humidity": "95%"
+    },
+    "Вечер": {
+      "weather_temperature": "+3°",
+      "weather_typy": "Пасмурно",
+      "weather_feeling": "+1°",
+      "weather-probability": "41%",
+      "weather-pressure": "766",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "2.0"
+      },
+      "weather-humidity": "91%"
+    }
+  },
+  "Воскресенье, 29 декабря": {
+    "Ночь": {
+      "weather_temperature": "+4°",
+      "weather_typy": "Слабый дождь",
+      "weather_feeling": "+1°",
+      "weather-probability": "54%",
+      "weather-pressure": "763",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "2.7"
+      },
+      "weather-humidity": "91%"
+    },
+    "Утро": {
+      "weather_temperature": "+3°",
+      "weather_typy": "Слабый дождь",
+      "weather_feeling": "0°",
+      "weather-probability": "76%",
+      "weather-pressure": "760",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "3.4"
+      },
+      "weather-humidity": "91%"
+    },
+    "День": {
+      "weather_temperature": "+4°",
+      "weather_typy": "Слабый дождь",
+      "weather_feeling": "+1°",
+      "weather-probability": "69%",
+      "weather-pressure": "756",
+      "weather-wind": {
+        "wind-direction": "юго-западный",
+        "wind-speed": "3.0"
+      },
+      "weather-humidity": "90%"
+    },
+    "Вечер": {
+      "weather_temperature": "+4°",
+      "weather_typy": "Слабый дождь",
+      "weather_feeling": "+1°",
+      "weather-probability": "60%",
+      "weather-pressure": "755",
+      "weather-wind": {
+        "wind-direction": "западный",
+        "wind-speed": "3.3"
+      },
+      "weather-humidity": "96%"
+    }
+  }
+}
