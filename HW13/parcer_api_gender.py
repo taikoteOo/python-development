@@ -1,7 +1,8 @@
+from os import write
+
 import requests
 
 def get_gender_name(name: str) -> dict:
-    # url = f'https://api.genderize.io/?name={name}'
     url = 'https://api.genderize.io'
     params = {
         'name': name
@@ -10,8 +11,28 @@ def get_gender_name(name: str) -> dict:
     data = resp.json()
     return data
 
-def parse_gender_data(data: dict) -> None:
-    pass
+def get_names_data(names: list) -> str:
+    peoples = ''
+    for name in names:
+        pers = get_gender_name(name)
+        if pers['gender'] == 'female':
+            sex = 'женский'
+        elif pers['gender'] == 'male':
+            sex = 'мужской'
+        else:
+            sex = 'не определён'
+        if pers['probability'] == 0.0:
+            probability = 'не определена\nНекорректное имя!'
+        else:
+            probability = f'{int(pers['probability']*100)}%'
+        persona = f'Имя - {name}\nПол - {sex}\nВероятность - {probability}\n\n'
+        peoples += persona
+    peoples =peoples.strip()
+    return peoples
 
-gender_data = get_gender_name(name='Alena')
-parse_gender_data(gender_data)
+def parse_gender_data(data: list) -> None:
+    with open('names.txt', 'w', encoding='utf-8') as f:
+        f.write(get_names_data(data))
+
+names = ['Елена','Владимир','3453456','Саша','авыавыаыенг']
+parse_gender_data(names)
