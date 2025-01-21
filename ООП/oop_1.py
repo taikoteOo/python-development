@@ -1,8 +1,5 @@
-from symtable import Class
-
-
 class Car:
-
+    _COLORS = ("red", "green", "blue", "")
     def __init__(self, brand, model, year, power, currency='RUB'):
         self.brand = brand
         self.model = model
@@ -17,6 +14,47 @@ class Car:
         #приватный атрибут
         self.__speed = 100
 
+    def go(self):
+        if self.is_power:
+            print(f"{self.brand} {self.model} to go!")
+        else:
+            print("Car must be power on!")
+
+    def stop(self):
+        if self.is_power:
+            print(f"{self.brand} {self.model} stop!")
+        else:
+            print("Car must be power on!")
+
+    def turn(self, direction):
+        if self.is_power:
+            print(f"{self.brand} {self.model} TURN {direction.upper()}")
+        else:
+            print("Car must be power on!")
+
+    def power_on(self):
+        if self.is_power:
+            print("Car is already power on!")
+        else:
+            print(f"{self.brand} {self.model} power on!")
+            self.is_power = True
+
+
+    def power_off(self):
+        if not self.is_power:
+            print("Car is already power off!")
+        else:
+            print(f"{self.brand} {self.model} power off!")
+            self.is_power = False
+
+    def display_color(self):
+        print(self._color)
+
+    def set_color(self, new_color):
+        if new_color in Car._COLORS:
+            self._color = new_color
+        else:
+            raise ValueError("Неправильный цвет")
 
     # Getter для получения значения скороcти
     @property #декоратор, позваляющий обращаться к методу, как в параметру
@@ -45,6 +83,7 @@ class Truck(Car):
         print('The method of Truck class')
 
 
+car_audi = Car(brand="Audi", model="A6", year=2024, power=249)
 car_bmw = Car(brand='BMW', model='X5', year=2022, power=249)
 
 truck = Truck(brand='Volvo', model='xxx', year=2019, capasity=4000, axles=4, power=700)
